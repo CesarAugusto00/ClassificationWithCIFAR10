@@ -25,7 +25,9 @@ self.conv2 = nn.Conv2d(6, 16, 5)        # 2nd Conv Layer: 6 in, 16 out, 5x5 kern
 self.fc1 = nn.Linear(16 * 5 * 5, 120)   # Fully Connected Layer 1
 self.fc2 = nn.Linear(120, 84)           # Fully Connected Layer 2
 self.fc3 = nn.Linear(84, 10)            # Output Layer (10 classes)
+```
 
 ## Results
+
 
 With this CNN architecture, the model achieves approximately 52% accuracy on the CIFAR-10 test set after a few epochs of training.
